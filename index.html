@@ -28,14 +28,14 @@
       </header>
       <section>
         <p></p><h2 id="65746865726369732c20616e206f70656e20736f75726365206f70656e65687220736572766572">
-<a id="ethercis-is-a-development-in-progress-and-is-currently-in-a-beta-mode-code-will-be-updated-frequently-interested-user-or-testers-can-post-support-request-and-issues-at-ethercis-support" class="anchor" href="#ethercis-is-a-development-in-progress-and-is-currently-in-a-beta-mode-code-will-be-updated-frequently-interested-user-or-testers-can-post-support-request-and-issues-at-ethercis-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>
-Ethercis is a development in progress and is currently in a BETA mode. Code will be updated frequently. Interested user or testers can post support request and issues at: <a href="https://www.assembla.com/spaces/ethercis-support">ethercis support</a>
+<a id="ethercis-is-a-development-in-progress-and-is-currently-in-a-beta-mode-code-will--hopefully--be-updated-frequently-interested-users-or-testers-can-post-support-request-and-issues-at-ethercis-support" class="anchor" href="#ethercis-is-a-development-in-progress-and-is-currently-in-a-beta-mode-code-will--hopefully--be-updated-frequently-interested-users-or-testers-can-post-support-request-and-issues-at-ethercis-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>
+Ethercis is a development in progress and is currently in a BETA mode. Code will -hopefully- be updated frequently. Interested users or testers can post support request and issues at: <a href="https://www.assembla.com/spaces/ethercis-support">ethercis support</a>
 </h2><p>EtherCIS (<i>Ethereal Clinical Information System</i>) is an Open Source platform compatible with the <a href="http://openehr.org/">openEHR </a>standard. It is design to allow simple interactions with clients using<a href="https://ehrscape.com/index.html"> </a><a href="http://en.wikipedia.org/wiki/Representational_state_transfer">RESTful </a>API and persist clinical data in a separate DB engine. Clinical data are exchanged using different formats:</p><ul>
 <li>FLAT JSON: which is a flatten representation of access path along with the corresponding field value</li>
 <li>Canonical XML: representing an openEHR composition in standard XML</li>
 </ul><p>For more details on data representation in openEHR see this <a href="https://github.com/handihealth/c4h_sits/blob/master/docs/general/openehr_intro.md">page</a></p><p></p><p>The core component of the architecture is
 a persistence engine that leverage new capabilities introduced recently
-in several RDBMS in particular the support of relational and <a title="NoSQL" href="https://www.assembla.com/wiki/show/ethercis-support/NoSQL">NoSQL</a>
+in several RDBMS in particular the support of relational and NoSQL.
 datatypes in the single table structures. Although EtherCIS is flexible
 in term of choice of DB, in this implementation, we use <a href="http://www.postgresql.org/docs/9.4/static/release-9-4.html">PostgreSQL 9.4</a> and <a href="http://www.postgresql.org/docs/9.4/static/datatype-json.html">JSONB </a>datatype.
 This is key feature since clinical data can be used with standard data
