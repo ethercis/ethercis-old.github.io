@@ -1,0 +1,17 @@
+com.ethercis.dao.access.handler
+com.ethercis.dao.access.interfaces
+com.ethercis.dao.access.jooq
+com.ethercis.dao.access.support
+com.ethercis.dao.access.util
+com.ethercis.ehr.building
+com.ethercis.ehr.building.util
+com.ethercis.ehr.encode
+com.ethercis.ehr.encode.wrappers
+com.ethercis.ehr.encode.wrappers.constraints
+com.ethercis.ehr.encode.wrappers.cprimitives
+com.ethercis.ehr.handler
+com.ethercis.ehr.keyvalues
+com.ethercis.ehr.knowledge
+com.ethercis.ehr.util
+org.openehr.binding
+org.openehr.build
